@@ -48,4 +48,4 @@ The second version is useful for algorithms like PPO, A3C, and D4PG that use mul
         - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
         - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
 
-4. Place the file in this repository _ContinuousControl_DDPG_ and unzip (or decompress) the file.
+4. Place the file in this repository Continuous-Control-DDGP-Unity-Reacher
