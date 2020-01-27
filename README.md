@@ -55,12 +55,3 @@ The second version is useful for algorithms like PPO, A3C, and D4PG that use mul
     **NOTE** : For this project, you will not need to install Unity. The link above provides you a standalone version. Also the above Reacher environment is similar to, but **not identical to** the Reacher environment on the [Unity ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher).
 
 4. Place the file in this repository _ContinuousControl_DDPG_ and unzip (or decompress) the file.
-
-## Instructions
-
-- Before running code, change parameters in `train.py`, especially you must change `env_file_name` according to your environment.
-- Run the following command to get started with training your own agent!
-    ```bash
-    python train.py
-    ```
-- After finishing training weights and scores are saved in the following folder `weights` and `scores` respectively. 
