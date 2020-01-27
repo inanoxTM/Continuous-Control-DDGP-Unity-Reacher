@@ -31,7 +31,7 @@ The second version is useful for algorithms like PPO, A3C, and D4PG that use mul
 
 2. Clone the repository, and navigate to the python/ folder. Then, install severeral dependencies (you can create env conda with this packages, or install packages in list env_drlnd.yaml.
 	```bash
-	conda env create -f environment.yml
+	conda env create -f environment_DRL.yml
 	```
 
 3. Download the environment from one of the links below. You need only select the environment that matches your operating system:
