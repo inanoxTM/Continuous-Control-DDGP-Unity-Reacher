@@ -56,3 +56,14 @@ The Parameters used for the Agent are:
 
 
 ## Results DDGP <a name="Results"></a>
+
+
+## Next Steps <a name="NextSteps"></a>
+The next steps to improve the results can be the following: 
+
+1) Optimize the hyperparameters of the process and network
+2) Change ANN by LSTM 
+3) Test other algorithm like as A3C, TD3, PPO.
+4) Add Prioritized Replay
+
+
