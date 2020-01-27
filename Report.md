@@ -56,7 +56,9 @@ The Parameters used for the Agent are:
 
 
 ## Results DDGP <a name="Results"></a>
+The environment has been solved in 280 episodes, but, around less than 100 episodes we get a scored around 25. It could be due to the number units of our ANN and its possible get fast results It is possible to obtain faster results by increasing this number. 
 
+![Results](/images/descarga.png)
 
 ## Next Steps <a name="NextSteps"></a>
 The next steps to improve the results can be the following: 
