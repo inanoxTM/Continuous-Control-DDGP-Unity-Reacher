@@ -12,7 +12,7 @@ The first version contains a single agent.
 The second version contains 20 identical agents, each with its own copy of the environment.
 The second version is useful for algorithms like PPO, A3C, and D4PG that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience. These tasks are episodic, and in order to solve the environment, your agent must get at least an average score of +30 over 100 consecutive episodes.
 
-[image]: Reacher_Trained.gif "Trained Agent"
+[image]: images/Reacher_Random.gif "Starting Point"
 
 ## Getting Started
 
