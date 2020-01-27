@@ -44,7 +44,7 @@ The Parameters used for the Agent are:
 | Hyperparameter  | value |
 | ------------- | ------------- |
 | Replay Buffer Size  | 1e6  |
-| Minibatch Size  | 164 |
+| Minibatch Size  | 128 |
 | Discount Rate  | 0.99  |
 | TAU  | 1e-3  |
 | Actor Learning Rate  | 5e-4  |
