@@ -29,12 +29,10 @@ The second version is useful for algorithms like PPO, A3C, and D4PG that use mul
 	activate your_env_name
 	```
 
-2. Clone the repository, and navigate to the python/ folder. Then, install several dependencies (see `requirements.txt`).
-    ```bash
-    git clone https://github.com/4kasha/ContinuousControl_DDPG.git
-    cd ContinuousControl_DDPG/python
-    pip install .
-    ```
+2. Clone the repository, and navigate to the python/ folder. Then, install severeral dependencies (you can create env conda with this packages, or install packages in list env_drlnd.yaml.
+	```bash
+	conda env create -f environment.yml
+	```
 
 3. Download the environment from one of the links below. You need only select the environment that matches your operating system:
 
@@ -49,9 +47,5 @@ The second version is useful for algorithms like PPO, A3C, and D4PG that use mul
         - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher.app.zip)
         - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86.zip)
         - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Windows_x86_64.zip)
-
-    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.
-
-    **NOTE** : For this project, you will not need to install Unity. The link above provides you a standalone version. Also the above Reacher environment is similar to, but **not identical to** the Reacher environment on the [Unity ML-Agents GitHub page](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher).
 
 4. Place the file in this repository _ContinuousControl_DDPG_ and unzip (or decompress) the file.
