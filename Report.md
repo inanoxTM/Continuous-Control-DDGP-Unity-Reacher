@@ -6,7 +6,7 @@
 1. [Introduction](#introduction)
 2. [Learning Algorithm](#LA)
 2. [Results](#Results)
-3. [Next Steps](#Next Steps)
+3. [Next Steps](#NextSteps)
 
 
 ## Introduction <a name="introduction"></a>
@@ -19,7 +19,7 @@ In our case, option 2 was performed, using 20 agents, as it trained faster.
 
 ## Learning Algorithm <a name="LA"></a>
 
-The algorithm I used for this project is the DDPG Actor Critic Model [paper](https://deepmind.com/research/publications/continuous-control-deep-reinforcement-learning). 
+The algorithm I used for this project is the DDPG Actor Critic Model ([paper](https://deepmind.com/research/publications/continuous-control-deep-reinforcement-learning).)
 
 In order to explain this algorithm, first, it needs to know that there are two ways for estimating expected returns. First is the Monte Carlo estimate, which roles out an episode in calculating the discounter total reward from the rewards sequence. In Dynamic Programming, the Markov Decision Process (MDP) is solved by using value iteration and policy iteration. Both techniques require transition and reward probabilities to find the optimal policy. When the transition and reward probabilities are unknown, we use the Monte Carlo method to solve MDP. The Monte Carlo method requires only sample sequences of states, actions, and rewards. Monte Carlo methods are applied only to the episodic tasks.
 
